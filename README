@@ -1,0 +1,13 @@
+Required dependencies:
+	git
+	g++
+	make
+	sed
+
+Most of these dependencies are already installed by default on most linux distributions. Some retooling may be needed for the programs to work with Windows.
+
+How to setup and use the program:
+	1. Run "bash setup.sh"
+	2. Run "./main verses.txt [minimum frequency] [maximum frequency] > 123.txt" (it will read whatever singular file that is passed through, and the output file may be named anything)
+
+The program reads a text file that separates a verse reference (i.e. Mark 10:45) and its actual text with a '|' character (i.e. Mark 10:45|For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.). Any file may be used
